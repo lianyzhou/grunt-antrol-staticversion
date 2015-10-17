@@ -53,13 +53,6 @@ Default value: `"/resources/"`
 
 pathPre is the path of the file in template.For example , the script path is /resources/scripts/page/search.js , the pathPre would be /resources/.
 
-#### options.pathPre
-
-Type: `String`
-Default value: `'/resources/scripts/'`
-
-if seajs.use('`page/home/search`') , the &lt;script&gt; 's attribute will be `/resources/scripts/page/home/search` , then pathPre is `/resources/scripts/`
-
 #### options.scriptDir
 
 Type: `String`
