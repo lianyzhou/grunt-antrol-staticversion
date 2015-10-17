@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<script>
+    var str1 = '^\\/resources\\/';
+    var str2 = '[a-z0-9._\\-\\/]+';
+    var str3 = '\\.(eot|svg|ttf|woff|png|jpg|gif|js|html|css|swf|less)';
+
+    var reg = new RegExp(str1 + str2 + str3 , 'i');
+
+    console.log(reg.exec('/resources/vendors/jquery/jquery.min.js'));
+
+</script>

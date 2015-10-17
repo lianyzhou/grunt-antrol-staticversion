@@ -1,0 +1,22 @@
+{
+  "name": "grunt-antrol-staticversion",
+  "description": "add static version for static files",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin static version"
+  ],
+  "maintainers": [
+    {
+      "name": "lianyzhou",
+      "email": "zhoulianyi@antrol.com"
+    }
+  ]
+}
